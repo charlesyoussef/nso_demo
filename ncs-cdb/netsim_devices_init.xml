@@ -1,0 +1,340 @@
+<devices xmlns="http://tail-f.com/ns/ncs">
+   <device>
+     <name>ce0</name>
+     <address>127.0.0.1</address>
+     <port>10022</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:ios-id="urn:ios-id">ios-id:cisco-ios</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>ce1</name>
+     <address>127.0.0.1</address>
+     <port>10023</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:ios-id="urn:ios-id">ios-id:cisco-ios</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>ce2</name>
+     <address>127.0.0.1</address>
+     <port>10024</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:ios-id="urn:ios-id">ios-id:cisco-ios</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>ce3</name>
+     <address>127.0.0.1</address>
+     <port>10025</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:ios-id="urn:ios-id">ios-id:cisco-ios</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>ce4</name>
+     <address>127.0.0.1</address>
+     <port>10026</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:ios-id="urn:ios-id">ios-id:cisco-ios</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>ce5</name>
+     <address>127.0.0.1</address>
+     <port>10027</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:ios-id="urn:ios-id">ios-id:cisco-ios</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>ce6</name>
+     <address>127.0.0.1</address>
+     <port>10028</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:ios-id="urn:ios-id">ios-id:cisco-ios</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>ce7</name>
+     <address>127.0.0.1</address>
+     <port>10029</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:ios-id="urn:ios-id">ios-id:cisco-ios</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>ce8</name>
+     <address>127.0.0.1</address>
+     <port>10030</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:ios-id="urn:ios-id">ios-id:cisco-ios</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>pe0</name>
+     <address>127.0.0.1</address>
+     <port>10031</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>pe1</name>
+     <address>127.0.0.1</address>
+     <port>10032</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>pe2</name>
+     <address>127.0.0.1</address>
+     <port>12033</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <netconf/>
+     </device-type>
+   </device>
+   <device>
+     <name>pe3</name>
+     <address>127.0.0.1</address>
+     <port>10034</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:alu-sr-id="http://tail-f.com/ned/alu-sr-id">alu-sr-id:alu-sr</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>p0</name>
+     <address>127.0.0.1</address>
+     <port>10035</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>p1</name>
+     <address>127.0.0.1</address>
+     <port>10036</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>p2</name>
+     <address>127.0.0.1</address>
+     <port>10037</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>p3</name>
+     <address>127.0.0.1</address>
+     <port>10038</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMDixNg95qxOOgjsx6hJsEKMdXDFJM7yYb38G/80/6ykXdjkMSxyXR1AjHhNmU+Gi7ZmfndNQXJme3VIA2auvcMz8RTChRNYFPjB/N8RIWr85NEGCkH09euc/8ZtcBFIXRiZ8o5WU7fGfCH9EnPBCkQkolI5VnBfiHNZ1loXLqP1YKq9sRmVUTc2aUuvr39/I3AGlJa0AV1H8szU68kSQqJUCrRIP8+u+tHDkg4qMBy2sQgTio9A+Ww6sMscYdaT51l8QUue4ebD+z09Tl6Er2iXWEstnc4haiToFKK6id2Rjw0TLu46/faUAvt9TAKWOPoWOsfEUtU7V3QqCcZFeJ cyoussef@CYOUSSEF-EPL99</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+       </cli>
+     </device-type>
+   </device>
+</devices>

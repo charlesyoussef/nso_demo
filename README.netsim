@@ -1,0 +1,65 @@
+
+This is a directory for running NCS. The initialization files have
+been generated from running towards netsim project defined
+in /mnt/c/Users/cyoussef/nso-4.7.3/ncs-4.7.3.1/examples.ncs/service-provider/mpls-vpn/netsim
+
+The directory content in /mnt/c/Users/cyoussef/nso-4.7.3/ncs-4.7.3.1/examples.ncs/service-provider/mpls-vpn/nso_demo has been generated through
+the invocation of
+
+# /mnt/c/Users/cyoussef/nso-4.7.3/bin/ncs-setup --dest /mnt/c/Users/cyoussef/nso-4.7.3/ncs-4.7.3.1/examples.ncs/service-provider/mpls-vpn/nso_demo
+
+The devices in that netsim directory are
+
+ce0 CLI/10022
+ce1 CLI/10023
+ce2 CLI/10024
+ce3 CLI/10025
+ce4 CLI/10026
+ce5 CLI/10027
+ce6 CLI/10028
+ce7 CLI/10029
+ce8 CLI/10030
+pe0 CLI/10031
+pe1 CLI/10032
+pe2 NETCONF/12033
+pe3 CLI/10034
+p0 CLI/10035
+p1 CLI/10036
+p2 CLI/10037
+p3 CLI/10038
+
+
+- To start the emulated network, go there and do ncs-netsim start | help
+  If the netsim directory for the emulated network resides above here
+  the ncs-netsim command will search upwards in the directory
+  hierarchy to search for the netsim directory.
+
+- To start NCS, do
+
+    # ncs  [--verbose --foreground]
+
+- To stop NCS, do
+
+    # ncs --stop
+
+- To get a regular CLI into NCS, do
+
+    # ncs_cli -u admin
+
+- To restart NCS from scratch,
+
+   # ncs-setup --reset
+
+    this will ensure NCS is reinitialized from the ncs-cdb/*.xml files
+    when restarted
+
+- To restart the netsim network from scratch, do
+
+    # ncs-netsim stop
+    # ncs-netsim reset
+    # ncs-netsim start
+
+        or in one swoop
+
+    # ncs-netsim restart
+
